@@ -1,0 +1,45 @@
+{
+  "name": "loadsys/cakephp-auth-userentity",
+  "description": "A CakePHP 3 plugin that enhances Cake's stock AuthComponent to provide a userEntity() method.",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "cakephp",
+    "auth",
+    "component",
+    "user",
+    "entity"
+  ],
+  "homepage": "https://github.com/loadsys/CakePHP-Auth-UserEntity",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brian Porter",
+      "email": "beporter@users.sourceforge.net"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/loadsys/CakePHP-Auth-UserEntity/issues",
+    "source": "https://github.com/loadsys/CakePHP-Auth-UserEntity"
+  },
+  "require": {
+    "php": ">=5.6",
+    "cakephp/cakephp": "~3.0",
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8",
+    "loadsys/loadsys_codesniffer": "dev-master",
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "AuthUserEntity\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Cake\\Test\\": "vendor/cakephp/cakephp/test",
+      "UuidShell\\Test\\": "tests"
+    }
+  }
+}
