@@ -1,13 +1,25 @@
-CakePHP 3
+# Composer
+/composer.lock
 
+# CakePHP 3
 /vendor/*
-/config/app.php
 /tmp/*
 /logs/*
 
-CakePHP 2
-
+# CakePHP 2
 /app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
 /vendors/*
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
