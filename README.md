@@ -28,10 +28,10 @@ To use this plugin in your app, you must override the stock AuthComponent with t
 ```php
 $this->loadComponent('Auth', [
 	/**
-	 * Define the fully qualified, namespaced class name to use. This
-	 * is **required** in order to use the plugin.
+	 * Name the plugin's Component as the class to use. This is **required**
+	 * in order to use the plugin.
 	 */
-	'className' => '\AuthUserEntity\Controller\Component\UserEntityAuthComponent',
+	'className' => 'AuthUserEntity.UserEntityAuth',
 
 	/**
 	 * Name the Entity class that will be used as the container for the
